@@ -13,7 +13,7 @@ const SoilData = ({item}) => {
   return (
     <div className=" grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
       {item.map((data, index) => (
-        <Card key={index} className="shadow-2xl cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-102 duration-300 my-10 sm:w-[200px] md:w-[350px] lg:w-[400px]   h-[350px]">
+        <Card key={index} className="shadow-2xl cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-102 duration-300 my-10 w-[320px] md:w-[350px] lg:w-[400px] h-[350px]">
           <CardHeader>
             <Heading className="font-mono" size="md">
               {data.soilname}
